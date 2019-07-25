@@ -20,7 +20,6 @@ public class demo6_MouseOver {
 
 		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
 		driver.findElement(By.id("txtPassword")).sendKeys("admin123");
-
 		WebElement Login=driver.findElement(By.id("btnLogin"));
 
 		Actions act=new Actions(driver);

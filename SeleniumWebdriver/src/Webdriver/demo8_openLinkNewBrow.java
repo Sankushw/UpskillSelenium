@@ -22,7 +22,7 @@ public class demo8_openLinkNewBrow {
 		driver.manage().window().maximize();
 		String title1=driver.getTitle();
 		System.out.println("Tab 1 title= "+title1);
-		driver.findElement(By.linkText("Gmail")).sendKeys(Keys.chord(Keys.CONTROL,Keys.RETURN));
+		driver.findElement(By.linkText("Gmail")).sendKeys(Keys.chord(Keys.CONTROL,Keys.RETURN));    //RETURN is same  as ENTER key
 
 		// trying with window handler
 		ArrayList<String> tabs=new ArrayList(driver.getWindowHandles());
